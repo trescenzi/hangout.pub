@@ -1,13 +1,17 @@
-<main>
-  <h1>Hangout Publishing</h1>
-</main>
+<h1>Hangout Publishing</h1>
+<section>
+  <ul>
+    <li><a href="/warp21">WARP21</a></li>
+  </ul>
+</section>
 
 <style>
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 1rem;
-    height: 100%;
+  h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
   }
 </style>

@@ -1,0 +1,29 @@
+:root {
+  --yellow: #fff200;
+  --black: black;
+  --white: white;
+
+  /* perfect fourths from typescale */
+  --font-xs: 0.563rem;
+  --font-s: 0.75rem;
+  --font-m: 1rem;
+  --font-l: 1.333rem;
+  --font-xl: 1.777rem;
+  --font-xxl: 2.369rem;
+  --font-xxxl: 3.157rem;
+  --font-xxxxl: 4.209rem;
+
+  --font-weight-normal: 300;
+  --font-weight-strong: 350;
+  --font-weight-bold: 400;
+  --font-weight-extra-bold: 500;
+
+  --space-base: 1rem;
+  --space-xxs: .25rem;
+  --space-xs: .5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 4rem;
+  --space-xxxl: 5rem;
+}
