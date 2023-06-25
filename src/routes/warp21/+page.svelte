@@ -1,7 +1,7 @@
 <p>
   Explore the universe from Nexus Station in this rules-light retrofuturist space TTRPG that uses a standard deck of cards to propel players across worlds and dimensions in a collaborative storytelling adventure.
 </p>
-<div />
+  <div/>
 <h2 id="setting">
   The Collision
 </h2>
@@ -16,6 +16,7 @@ Multiple activations of the collider provided compelling evidence in support of 
 The experiment however was more successful than could have dreamed of; the colonists found themselves in an enormous, abandoned space station orbiting a remote star, full of alien technology. For 15 years they have adapted this alien technology for their own needs to allow them to continue with their experiments, traveling to countless galaxies and dimensions in their quest to return to Earth.
   </p>
 </section>
+<img class="span" src="/nexus_station.png" alt="a space station" />
 <h2 class="col2">
   Nexus Station
 </h2>
@@ -42,9 +43,15 @@ The experiment however was more successful than could have dreamed of; the colon
   @media(min-width: 810px) {
     .col1 {
       grid-column: 1;
+      text-align: left;
     }
     .col2 {
       grid-column: 2;
+      text-align: right;
+    }
+    .span {
+      align-self: center;
+      grid-column: 1/3;
     }
   }
 </style>

@@ -3,7 +3,7 @@
   <nav>
     <a href="#setting">Setting</a>
     <a href="#rules">How to Play</a>
-    <a href="#charactersheets">Character Sheets</a>
+    <a target="_blank" href="/character_sheet.pdf">Character Sheet</a>
     <button type="button">
       <a href="https://www.drivethrurpg.com" target="_blank">
         Get the Book
