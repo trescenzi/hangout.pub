@@ -3,6 +3,10 @@
 </div>
 
 <style>
+  :global(body) {
+    background-color: white;
+  }
+
   div {
     display: flex;
     flex-direction: column;

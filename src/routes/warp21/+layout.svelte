@@ -1,7 +1,7 @@
 <header>
-  <h2> WARP 21</h2>
+  <h1>WARP 21</h1>
   <nav>
-    <a href="#setting">Nexus Station</a>
+    <a href="#setting">Setting</a>
     <a href="#rules">How to Play</a>
     <a href="#charactersheets">Character Sheets</a>
     <button type="button">
@@ -16,7 +16,7 @@
 </main>
 
 <style>
-  h2 {
+  h1 {
     font-size: var(--font-xxl);
     color: var(--yellow);
     align-self: center;
@@ -27,9 +27,9 @@
   }
   main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 50px 1fr;
-    grid-auto-flow: row;
+    grid-auto-flow: dense;
+    column-gap: var(--space-m);
+    row-gap: 7.5vh;
   }
   header {
     display: flex;
@@ -81,16 +81,20 @@
       display: inline;
     }
   }
-  @media(min-width: 860px) {
+  @media(min-width: 810px) {
     nav a:not(:first-of-type) {
       display: inline;
+    }
+    main {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 15vh;
     }
   }
   @media(min-width: 1200px) {
     a {
       font-size: var(--font-l);
     }
-    h2 {
+    h1 {
       font-size: var(--font-xxxxl);
     }
     button { 
