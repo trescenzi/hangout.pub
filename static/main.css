@@ -13,10 +13,8 @@
   --font-xxxl: 3.157rem;
   --font-xxxxl: 4.209rem;
 
-  --font-weight-normal: 300;
-  --font-weight-strong: 350;
-  --font-weight-bold: 400;
-  --font-weight-extra-bold: 500;
+  --font-weight-regular: regular;
+  --font-weight-bold: bold;
 
   --space-base: 1rem;
   --space-xxs: .25rem;
@@ -26,4 +24,6 @@
   --space-xl: 3rem;
   --space-xxl: 4rem;
   --space-xxxl: 5rem;
+
+  --slab: 'Roboto Slab';
 }

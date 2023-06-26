@@ -32,7 +32,9 @@ The experiment however was more successful than could have dreamed of; the colon
 <style>
   h2 {
     font-size: var(--font-xxl);
+    font-family: var(--slab);
     color: var(--yellow);
+    font-weight: var(--font-weight-bold);
   }
   p {
     font-size: var(--font-xl);

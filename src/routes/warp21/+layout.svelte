@@ -17,8 +17,10 @@
 
 <style>
   h1 {
-    font-size: var(--font-xxl);
+    font-size: var(--font-xxxl);
     color: var(--yellow);
+    font-family: var(--slab);
+    font-weight: var(--font-weight-bold);
     align-self: center;
   }
   :global(body) {
