@@ -46,7 +46,7 @@
   }
   nav a {
     color: var(--white);
-    font-weight: var(--font-weight-strong);
+    font-weight: var(--font-weight-medium);
     text-decoration: none;
     align-self: center;
     display: none;

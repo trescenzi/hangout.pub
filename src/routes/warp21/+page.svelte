@@ -37,13 +37,14 @@ The experiment however was more successful than could have dreamed of; the colon
     font-weight: var(--font-weight-bold);
   }
   p {
-    font-size: var(--font-xl);
+    font-size: var(--font-m);
   }
   p + p {
     margin-top: var(--space-m);
   }
   .station {
-    height: 75vh;
+    height: 50vh;
+    margin: -5vh 0;
     justify-self: center;
   }
   @media(min-width: 810px) {

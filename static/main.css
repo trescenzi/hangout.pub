@@ -13,8 +13,9 @@
   --font-xxxl: 3.157rem;
   --font-xxxxl: 4.209rem;
 
-  --font-weight-regular: regular;
-  --font-weight-bold: bold;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
 
   --space-base: 1rem;
   --space-xxs: .25rem;
