@@ -32,6 +32,32 @@ The experiment however was more successful than could have dreamed of; the colon
     Now uncertain if they'll ever return to Earth, Nexus Station is home to a new generation of humanity growing up amongst the stars.
   </p>
 </section>
+<h2 id="rules">
+  Playing with Cards
+</h2>
+<section>
+  <p>
+    Unlike most other TTRPGs WARP21 uses cards to create randomness. This is done both to give the game a unique feel as well as to make it simpler to play in places where rolling dice is, well, dicey. By combining Contests and Tasks, WARP21 merges random draws with a spiced up version of Blackjack to keep the narrative moving without getting bogged down in the specifics of combat.
+  </p>
+</section>
+<section>
+  <h3>Contests</h3>
+  <p>
+    When you come across a challenge that is going to take some time to surmount, if you get into a tussle that might be prolonged, or if that robot needs a particularly complex fix you're going to have to win a Contest. At their heart Contests are just Blackjack played out over multiple rounds. But add in some Archetype abilities plus the knowledge of your Profession and things get more interesting. The winner of the Contest, be it the Dealer or the players involved, gets to describe the outcome.
+  </p>
+</section>
+<section>
+  <h3>Tasks</h3>
+  <p>In contrast to Contests where you resolve a larger conflict over multiple hands Tasks are simple. Just draw a card, or maybe more, add your Superlative bonus and see if you hit 11. Aces are high and for those who like excitement Jokers can be treated as a critical success. Tasks help you resolve the little things. Hacking your way past a locked door, knocking out a guard, and snatching a beaker off a desk can all be decided by a Task.</p>
+</section>
+<h2 class="col2">
+  Characters
+</h2>
+<section class="col1">
+  <p>
+    Character creation is simple and involves picking a Superlative, an Archetype, and a Profession. You could be The Cleverest Brainiac Academic or go off the beaten path with The Strongest Maverick Provocateur. Your choices directly impact every part of the game and each character feels unique.
+  </p>
+</section>
 <Footer />
 
 <style>
@@ -40,6 +66,13 @@ The experiment however was more successful than could have dreamed of; the colon
     font-family: var(--slab);
     color: var(--yellow);
     font-weight: var(--font-weight-bold);
+  }
+  h3 {
+    color: var(--yellow);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--slab);
+    font-size: var(--font-l);
+    margin-bottom: var(--space-s);
   }
   .font-l {
     font-size: var(--font-l);
