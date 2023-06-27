@@ -23,15 +23,17 @@
     font-weight: var(--font-weight-bold);
     align-self: center;
   }
-  :global(body) {
-    background-color: black;
-    color: white;
+  header, main {
+    padding: 2rem 1.5rem;
+    max-width: 1280px;
+    margin: 0 auto;
   }
   main {
     display: grid;
     grid-auto-flow: dense;
     column-gap: var(--space-m);
     row-gap: 7.5vh;
+    height: 100vh;
   }
   header {
     display: flex;
