@@ -1,7 +1,11 @@
-<p>
+<script>
+  import Footer from './footer.svelte';
+</script>
+
+<p class="font-l">
   Explore the universe from Nexus Station in this rules-light retrofuturist space TTRPG that uses a standard deck of cards to propel players across worlds and dimensions in a collaborative storytelling adventure.
 </p>
-  <div/>
+<img class="collision" src="/collision.png" alt="a space station" />
 <h2 id="setting">
   The Collision
 </h2>
@@ -16,7 +20,7 @@ Multiple activations of the collider provided compelling evidence in support of 
 The experiment however was more successful than could have dreamed of; the colonists found themselves in an enormous, abandoned space station orbiting a remote star, full of alien technology. For 15 years they have adapted this alien technology for their own needs to allow them to continue with their experiments, traveling to countless galaxies and dimensions in their quest to return to Earth.
   </p>
 </section>
-<img class="span station" src="/nexus_station.png" alt="a space station" />
+<img class="span station" src="/nexus_station2.png" alt="a space station" />
 <h2 class="col2">
   Nexus Station
 </h2>
@@ -28,6 +32,7 @@ The experiment however was more successful than could have dreamed of; the colon
     Now uncertain if they'll ever return to Earth, Nexus Station is home to a new generation of humanity growing up amongst the stars.
   </p>
 </section>
+<Footer />
 
 <style>
   h2 {
@@ -35,6 +40,9 @@ The experiment however was more successful than could have dreamed of; the colon
     font-family: var(--slab);
     color: var(--yellow);
     font-weight: var(--font-weight-bold);
+  }
+  .font-l {
+    font-size: var(--font-l);
   }
   p {
     font-size: var(--font-m);
@@ -44,8 +52,13 @@ The experiment however was more successful than could have dreamed of; the colon
   }
   .station {
     height: 50vh;
+    width: 100%;
     margin: -5vh 0;
     justify-self: center;
+    object-fit: none;
+  }
+  .collision {
+    object-fit: contain;
   }
   @media(min-width: 810px) {
     .col1 {
