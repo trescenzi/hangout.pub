@@ -7,6 +7,10 @@
     <li><a href="https://www.drivethrurpg.com">Buy a Copy</a></li>
     <li><a href="/">Hangout Publishing</a></li>
   </ul>
+  <p>
+    Images on this site were generated using Midjourney AI.
+    We make no claims ownership of any of the rights to the included images.
+  </p>
 </footer>
 
 <style>
@@ -15,12 +19,20 @@
     font-size: var(--font-s);
     display: flex;
     margin-bottom: var(--space-l);
+    flex-direction: column;
+    gap: var(--space-l);
+    box-shadow: 0px -2px 0px 0px var(--yellow);
+    padding-top: var(--space-xs);
+  }
+
+  p {
+    flex: 2;
   }
 
   ul {
     list-style: none;
     padding: 0;
-    width: 350px;
+    flex: 1;
   }
 
   li + li {
@@ -37,9 +49,7 @@
   @media(min-width: 650px) {
     footer {
       grid-column: 1/3;
-    }
-    p {
-      width: 350px;
+      flex-direction: row;
     }
   }
 </style>
