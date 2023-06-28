@@ -44,7 +44,7 @@ The experiment however was more successful than could have dreamed of; the colon
 <section>
   <h3>Contests</h3>
   <p>
-    When you come across a challenge that is going to take some time to surmount, if you get into a tussle that might be prolonged, or if that robot needs a particularly complex fix you're going to have to win a Contest. At their heart Contests are just Blackjack played out over multiple rounds. But add in some Archetype abilities plus the knowledge of your Profession and things get more interesting. The winner of the Contest, be it the Dealer or the players involved, gets to describe the outcome.
+    When you come across a challenge that is going to take some time to surmount, if you get into a tussle that might be prolonged, or if that robot needs a particularly complex fix you're going to have to win a Contest. At their heart Contests are just Blackjack played out over multiple rounds. But add in some Archetype abilities plus the knowledge of your Background and things get more interesting. The winner of the Contest, be it the Dealer or the players involved, gets to describe the outcome.
   </p>
 </section>
 <section>
@@ -57,13 +57,16 @@ The experiment however was more successful than could have dreamed of; the colon
 </h2>
 <section class="col1">
   <p>
-    Character creation is simple and involves picking a Superlative, an Archetype, and a Profession. You could be The Cleverest Brainiac Academic or go off the beaten path with The Strongest Maverick Provocateur. Your choices directly impact every part of the game and each character feels unique.
+    Character creation is simple and involves picking a Superlative, an Archetype, and a Background. You could be The Cleverest Brainiac Academic or go off the beaten path with The Strongest Maverick Provocateur. Your choices directly impact every part of the game and each character feels unique.
   </p>
   <p>
     Pick a Superlative from the examples or invent your own. When you complete a Task that is up your alley you get a small bonus. Like pickpocketing or sneaking around? Be The Sneakiest. Have a strong constitution? Maybe you're The Hardiest.
   </p>
   <p>
-    Your Archetype and Profession give you abilities that you can use during encounters and further describe your character. Play a Bruiser if you'd like to be headstrong and capable of taking challenges stright on or The Jack-of-all-Trades if you want to be capable in many different situations.
+    Your Archetype gives you abilities that you can use during encounters and further describe your character. Play a Bruiser if you'd like to be headstrong and capable of taking challenges straight on or The Jack-of-all-Trades if you want to be capable in many different situations.
+  </p>
+  <p>
+    Finally your Background helps describe where your character came from and what they are especially good at. Are you a Greaser specializing in mechanical knowhow and brawn? Maybe you'd rather play an Academic any solve problems with your deep knowledge. Or maybe you'd like to come up with your own unique Background that accentuates how you like to play.
   </p>
 </section>
 <h2 id="faq">
