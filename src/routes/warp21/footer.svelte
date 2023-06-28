@@ -22,7 +22,7 @@
     flex-direction: column;
     gap: var(--space-l);
     box-shadow: 0px -2px 0px 0px var(--yellow);
-    padding-top: var(--space-xs);
+    padding: var(--space-xs) 0;
   }
 
   p {
