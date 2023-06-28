@@ -32,6 +32,7 @@ The experiment however was more successful than could have dreamed of; the colon
     Now uncertain if they'll ever return to Earth, Nexus Station is home to a new generation of humanity growing up amongst the stars.
   </p>
 </section>
+<img class="span" src="/playing.png" alt="a group of people playing cards on a space station" />
 <h2 id="rules">
   Playing with Cards
 </h2>
@@ -50,12 +51,19 @@ The experiment however was more successful than could have dreamed of; the colon
   <h3>Tasks</h3>
   <p>In contrast to Contests where you resolve a larger conflict over multiple hands Tasks are simple. Just draw a card, or maybe more, add your Superlative bonus and see if you hit 11. Aces are high and for those who like excitement Jokers can be treated as a critical success. Tasks help you resolve the little things. Hacking your way past a locked door, knocking out a guard, and snatching a beaker off a desk can all be decided by a Task.</p>
 </section>
+<img src="/maverick.png" class="span" alt="depiction of the maveric Archytype. it's abilities allow you to take risks during tasks and to swap hands with the dealer in contests"/>
 <h2 class="col2">
   Characters
 </h2>
 <section class="col1">
   <p>
     Character creation is simple and involves picking a Superlative, an Archetype, and a Profession. You could be The Cleverest Brainiac Academic or go off the beaten path with The Strongest Maverick Provocateur. Your choices directly impact every part of the game and each character feels unique.
+  </p>
+  <p>
+    Pick a Superlative from the examples or invent your own. When you complete a Task that is up your alley you get a small bonus. Like pickpocketing or sneaking around? Be The Sneakiest. Have a strong constitution? Maybe you're The Hardiest.
+  </p>
+  <p>
+    Your Archetype and Profession give you abilities that you can use during encounters and further describe your character. Play a Bruiser if you'd like to be headstrong or The Jack-of-all-Trades if you'd like to be a master of none.
   </p>
 </section>
 <Footer />
@@ -83,12 +91,17 @@ The experiment however was more successful than could have dreamed of; the colon
   p + p {
     margin-top: var(--space-m);
   }
+  img {
+    height: 25vh;
+  }
   .station {
     height: 50vh;
     width: 100%;
+    object-fit: none;
+  }
+  .span {
     margin: -5vh 0;
     justify-self: center;
-    object-fit: none;
   }
   .collision {
     object-fit: contain;
