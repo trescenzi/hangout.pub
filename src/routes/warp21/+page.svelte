@@ -1,11 +1,15 @@
 <script>
   import Footer from './footer.svelte';
+  import nexusStation from '/src/assets/nexus_station2.png?format=webp';
+  import collision from '/src/assets/collision.png?format=webp';
+  import playing from '/src/assets/playing.png?format=webp';
+  import maverick from '/src/assets/maverick.png?format=webp';
 </script>
 
 <p class="font-l">
   Explore the universe from Nexus Station in this rules-light retrofuturist space TTRPG that uses a standard deck of cards to propel players across worlds and dimensions in a collaborative storytelling adventure.
 </p>
-<img class="collision" src="/collision.png" alt="a space station" />
+<img class="collision" src={collision} alt="a space station" />
 <h2 id="setting">
   The Collision
 </h2>
@@ -20,7 +24,7 @@ Multiple activations of the collider provided compelling evidence in support of 
 The experiment however was more successful than could have dreamed of; the colonists found themselves in an enormous, abandoned space station orbiting a remote star, full of alien technology. For 15 years they have adapted this alien technology for their own needs to allow them to continue with their experiments, traveling to countless galaxies and dimensions in their quest to return to Earth.
   </p>
 </section>
-<img class="span station" src="/nexus_station2.png" alt="a space station" />
+<img class="span station" src={nexusStation} alt="a space station" />
 <h2 class="col2">
   Nexus Station
 </h2>
@@ -32,7 +36,7 @@ The experiment however was more successful than could have dreamed of; the colon
     Now uncertain if they'll ever return to Earth, Nexus Station is home to a new generation of humanity growing up amongst the stars.
   </p>
 </section>
-<img class="span" src="/playing.png" alt="a group of people playing cards on a space station" />
+<img class="span" src={playing} alt="a group of people playing cards on a space station" />
 <h2 id="rules">
   Playing with Cards
 </h2>
@@ -51,7 +55,7 @@ The experiment however was more successful than could have dreamed of; the colon
   <h3>Tasks</h3>
   <p>In contrast to Contests where you resolve a larger conflict over multiple hands Tasks are simple. Just draw a card, or maybe more, add your Superlative bonus and see if you hit 11. Aces are high and for those who like excitement Jokers can be treated as a critical success. Tasks help you resolve the little things. Hacking your way past a locked door, knocking out a guard, and snatching a beaker off a desk can all be decided by a Task.</p>
 </section>
-<img src="/maverick.png" class="span" alt="depiction of the maveric Archytype. it's abilities allow you to take risks during tasks and to swap hands with the dealer in contests"/>
+<img src={maverick} class="span" alt="depiction of the maveric Archytype. it's abilities allow you to take risks during tasks and to swap hands with the dealer in contests"/>
 <h2 class="col2" id="characters">
   Characters
 </h2>
@@ -132,12 +136,11 @@ The experiment however was more successful than could have dreamed of; the colon
     margin-top: var(--space-m);
   }
   img {
-    height: 25vh;
+    height: 35vh;
   }
   .station {
-    height: 50vh;
     width: 100%;
-    object-fit: none;
+    object-fit: cover;
   }
   .span {
     margin: -5vh 0;
@@ -145,6 +148,7 @@ The experiment however was more successful than could have dreamed of; the colon
   }
   .collision {
     object-fit: contain;
+    margin-left: auto;
   }
   @media(min-width: 810px) {
     .col1 {
