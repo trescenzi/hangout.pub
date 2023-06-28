@@ -52,7 +52,7 @@ The experiment however was more successful than could have dreamed of; the colon
   <p>In contrast to Contests where you resolve a larger conflict over multiple hands Tasks are simple. Just draw a card, or maybe more, add your Superlative bonus and see if you hit 11. Aces are high and for those who like excitement Jokers can be treated as a critical success. Tasks help you resolve the little things. Hacking your way past a locked door, knocking out a guard, and snatching a beaker off a desk can all be decided by a Task.</p>
 </section>
 <img src="/maverick.png" class="span" alt="depiction of the maveric Archytype. it's abilities allow you to take risks during tasks and to swap hands with the dealer in contests"/>
-<h2 class="col2">
+<h2 class="col2" id="characters">
   Characters
 </h2>
 <section class="col1">
@@ -63,12 +63,49 @@ The experiment however was more successful than could have dreamed of; the colon
     Pick a Superlative from the examples or invent your own. When you complete a Task that is up your alley you get a small bonus. Like pickpocketing or sneaking around? Be The Sneakiest. Have a strong constitution? Maybe you're The Hardiest.
   </p>
   <p>
-    Your Archetype and Profession give you abilities that you can use during encounters and further describe your character. Play a Bruiser if you'd like to be headstrong or The Jack-of-all-Trades if you'd like to be a master of none.
+    Your Archetype and Profession give you abilities that you can use during encounters and further describe your character. Play a Bruiser if you'd like to be headstrong and capable of taking challenges stright on or The Jack-of-all-Trades if you want to be capable in many different situations.
   </p>
+</section>
+<h2 id="faq">
+  FAQ
+</h2>
+<section>
+  <p>
+    Coming soon! Ask questions below and we'll try our best to answer them.
+  <p>
+  <form method="POST">
+    <label>
+    <span class="labeltext">Your Question</span>
+      <textarea name="question" />
+    </label>
+    <button>Submit</button>
+  </form>
 </section>
 <Footer />
 
 <style>
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+  }
+  label {
+    display: flex;
+  }
+  label textarea {
+    flex: 1;
+  }
+  .labeltext {
+    vertical-align: top;
+    color: var(--yellow);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-l);
+    margin-right: var(--space-l);
+  }
+  button {
+    width: 300px;
+    align-self: center;
+  }
   h2 {
     font-size: var(--font-xxl);
     font-family: var(--slab);

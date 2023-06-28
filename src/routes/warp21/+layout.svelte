@@ -16,6 +16,21 @@
 </main>
 
 <style>
+  :global(button) {
+    align-self: center;
+    background-color: black;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-weight: var(--font-weight-strong);
+    box-shadow: #fff200 0px 0px 4px 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    height: var(--space-xl);
+    font-size: var(--font-m);
+  }
   h1 {
     font-size: var(--font-xxxl);
     color: var(--yellow);
@@ -56,25 +71,11 @@
   nav button a {
     display: inline;
   }
-  button {
-    align-self: center;
-    background-color: black;
-    border: 1px solid #000;
-    border-radius: 4px;
-    font-weight: var(--font-weight-strong);
-    box-shadow: #fff200 0px 0px 4px 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    height: var(--space-xl);
-    font-size: var(--font-m);
-  }
   @media(hover: hover) {
-    button:hover {
+    :global(button:hover) {
       background-color: var(--yellow);
       box-shadow: none;
+      color: black;
     }
     button:hover a {
       color: black;
