@@ -163,5 +163,8 @@ The experiment however was more successful than could have dreamed of; the colon
       align-self: center;
       grid-column: 1/3;
     }
+    img {
+      min-height: 350px;
+    }
   }
 </style>

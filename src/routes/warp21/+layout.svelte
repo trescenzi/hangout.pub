@@ -40,7 +40,7 @@
   }
   header, main {
     padding: 2rem 1.5rem;
-    max-width: 1280px;
+    max-width: 1080px;
     margin: 0 auto;
   }
   main {
