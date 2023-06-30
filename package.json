@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@vercel/analytics": "^1.0.1",
 		"vite-imagetools": "^5.0.4"
 	}
 }
