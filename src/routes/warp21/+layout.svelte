@@ -3,7 +3,7 @@
   <nav>
     <a href="#setting">Setting</a>
     <a href="#rules">How to Play</a>
-    <a target="_blank" href="/character_sheet.pdf">Character Sheet</a>
+    <a target="_blank" href="/WARP21-Fillable-Character-Sheet-V1.0.pdf">Character Sheet</a>
     <button type="button">
       <a href="https://www.drivethrurpg.com" target="_blank">
         Get the Book
