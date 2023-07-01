@@ -4,7 +4,7 @@
   </p>
   <ul>
     <li><a href="/character_sheet.pdf">Download Character Sheet</a></li>
-    <li><a href="https://www.drivethrurpg.com">Buy a Copy</a></li>
+    <li><a href="https://www.drivethrurpg.com/product/443618/WARP21?affiliate_id=3996177">Buy a Copy</a></li>
     <li><a href="/">Hangout Publishing</a></li>
   </ul>
   <p>
