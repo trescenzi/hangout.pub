@@ -5,7 +5,7 @@
     <a href="#rules">How to Play</a>
     <a target="_blank" href="/WARP21-Fillable-Character-Sheet-V1.0.pdf">Character Sheet</a>
     <button type="button">
-      <a href="https://www.drivethrurpg.com" target="_blank">
+      <a href="https://www.drivethrurpg.com/product/443618/WARP21?affiliate_id=3996177" target="_blank">
         Get the Book
       </a>
     </button>
