@@ -1,8 +1,19 @@
+<script>
+  import warp21 from '/src/assets/warp21-banner.jpg?format=webp&w=1080';
+</script>
+
 <main>
 <h1>Hangout Publishing</h1>
 <section>
   <ul>
-    <li><a href="/warp21">WARP21</a></li>
+    <li>
+        <a href="/warp21">
+          <img 
+            src={warp21}
+            alt="Warp21 Banner reading: WARP21 A retrofuturistic TTRPG with images of different characters"
+          />
+        </a>
+    </li>
   </ul>
 </section>
 </main>
@@ -27,7 +38,7 @@
     align-items: center;
     padding: 2rem 1.5rem;
     height: 100vh;
-    max-width: 1280px;
+    max-width: 1080px;
     margin: 0 auto;
   }
 </style>
