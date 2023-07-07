@@ -5,15 +5,16 @@ export const actions = {
     const channelId = process.env.WARP21FAQ_CHANNEL_ID;
     const data = await request.formData();
     const question = data.get('question');
+    const email = data.get('email');
     await fetch(`https://discord.com/api/channels/${channelId}/messages`, {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",
         "Authorization": `Bot ${token}`,
       },
-      body: JSON.stringify({content: question}),
+      body: JSON.stringify({content: `${email ? `**${email}:**` : ''} ${question}`}),
     });
 
-    throw redirect(303, '/warp21#faq'); 
+    return { showThankYou: true };
   },
 }
