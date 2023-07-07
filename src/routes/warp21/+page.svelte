@@ -78,13 +78,13 @@ The experiment however was more successful than could have dreamed of; the colon
 </h2>
 <section>
   <p>
-    Coming soon! Ask questions below and we'll try our best to answer them.
+    Coming soon! Ask questions below and we'll try our best to answer them. Email optional but if you include it we'll try to get back to you!
   <p>
   <form method="POST">
-    <label>
-    <span class="labeltext">Your Question</span>
-      <textarea name="question" />
-    </label>
+    <label for="email">Your Email</label>
+    <input id="email" name="email" type="email" />
+    <label for="question">Your Question</label>
+    <textarea id="question" name="question" />
     <button>Submit</button>
   </form>
 </section>
@@ -92,17 +92,33 @@ The experiment however was more successful than could have dreamed of; the colon
 
 <style>
   form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: var(--space-l);
   }
-  label {
-    display: flex;
-  }
-  label textarea {
+  textarea,
+  input {
+    appearance: none;
+    border: none;
     flex: 1;
+    box-shadow: #fff200 0px 0px 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: black;
+    color: white;
   }
-  .labeltext {
+  textarea {
+    height: 4em;
+  }
+  input {
+    height: var(--space-l);
+    padding: var(--space-xs);
+  }
+  textarea:focus-within,
+  input:focus-within {
+    outline: 2px solid yellow;
+    box-shadow: none;
+  }
+  label {
     vertical-align: top;
     color: var(--yellow);
     font-weight: var(--font-weight-medium);
@@ -110,8 +126,7 @@ The experiment however was more successful than could have dreamed of; the colon
     margin-right: var(--space-l);
   }
   button {
-    width: 300px;
-    align-self: center;
+    width: 100%;
   }
   h2 {
     font-size: var(--font-xxl);
@@ -151,6 +166,12 @@ The experiment however was more successful than could have dreamed of; the colon
     margin-left: auto;
   }
   @media(min-width: 810px) {
+    form {
+      grid-template-columns: 175px 1fr;
+    }
+    button {
+      grid-column: 2;
+    }
     .col1 {
       grid-column: 1;
       text-align: left;
