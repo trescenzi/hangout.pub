@@ -1,9 +1,13 @@
-<script>
+<script lang="ts">
   import Footer from './footer.svelte';
+  import ThankYou from './thankyou.svelte';
   import nexusStation from '/src/assets/nexus_station2.png?format=webp';
   import collision from '/src/assets/collision.png?format=webp';
   import playing from '/src/assets/playing.png?format=webp';
   import maverick from '/src/assets/maverick.png?format=webp';
+  import type { ActionData } from './$types';
+
+  export let form: ActionData;
 </script>
 
 <p class="font-l">
@@ -88,6 +92,9 @@ The experiment however was more successful than could have dreamed of; the colon
     <button>Submit</button>
   </form>
 </section>
+{#if form?.showThankYou}
+  <ThankYou />
+{/if}
 <Footer />
 
 <style>

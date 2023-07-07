@@ -15,6 +15,6 @@ export const actions = {
       body: JSON.stringify({content: `${email ? `**${email}:**` : ''} ${question}`}),
     });
 
-    throw redirect(303, '/warp21#faq?thankyou'); 
+    return { showThankYou: true };
   },
 }
