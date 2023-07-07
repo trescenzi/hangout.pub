@@ -22,6 +22,7 @@
   h1 {
     font-weight: 400;
     margin-bottom: 2rem;
+    font-family: var(--slab);
   }
   ul {
     padding: 0;
