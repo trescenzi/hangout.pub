@@ -24,6 +24,7 @@
 		margin-bottom: 2rem;
 		font-family: var(--slab);
 	}
+
 	ul {
 		padding: 0;
 		list-style: none;
