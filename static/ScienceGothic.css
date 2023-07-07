@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'ScienceGothic';
-	src: url('ScienceGothic.woff2') format('woff2') tech('variations'),
-		url('ScienceGothic.woff2') format('woff2-variations');
-	font-weight: 300 7000;
+  font-family: 'ScienceGothic';
+  src: url('ScienceGothic.woff2') format('woff2') tech('variations'),
+    url('ScienceGothic.woff2') format('woff2-variations');
+  font-weight: 300 7000;
 }
