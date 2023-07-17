@@ -4,6 +4,7 @@
     <a href="#setting">Setting</a>
     <a href="#rules">How to Play</a>
     <a target="_blank" href="/WARP21-Fillable-Character-Sheet-V1.0.pdf">Character Sheet</a>
+    <a href="/warp21/dyson_dilemma">Free Adventure</a>
     <button type="button">
       <a
         href="https://www.drivethrurpg.com/product/443618/WARP21?affiliate_id=3996177"
@@ -81,17 +82,17 @@
       box-shadow: none;
       color: black;
     }
-    button:hover a {
+    :global(button:hover a) {
       color: black;
     }
   }
   @media (min-width: 600px) {
-    nav a:first-of-type {
+    nav a:nth-of-type(2n) {
       display: inline;
     }
   }
   @media (min-width: 810px) {
-    nav a:not(:first-of-type) {
+    nav a {
       display: inline;
     }
     main {
@@ -106,7 +107,7 @@
     h1 {
       font-size: var(--font-xxxxl);
     }
-    button {
+    :global(button) {
       height: var(--space-xl);
       padding: 0 var(--space-m);
     }
