@@ -1,5 +1,6 @@
 <script>
   import Footer from './footer.svelte';
+  import Button from '/src/components/button.svelte';
 </script>
 
 <header>
@@ -9,14 +10,15 @@
     <a href="#rules">How to Play</a>
     <a target="_blank" href="/WARP21-Fillable-Character-Sheet-V1.0.pdf">Character Sheet</a>
     <a href="/warp21/dyson_dilemma">Free Adventure</a>
-    <button type="button">
-      <a
+    <div style="align-self: center">
+      <Button
+        type="button"
         href="https://www.drivethrurpg.com/product/443618/WARP21?affiliate_id=3996177"
         target="_blank"
       >
         Get the Book
-      </a>
-    </button>
+      </Button>
+    </div>
   </nav>
 </header>
 <main>
@@ -25,21 +27,6 @@
 <Footer />
 
 <style>
-  :global(button) {
-    align-self: center;
-    background-color: black;
-    border: 1px solid #000;
-    border-radius: 4px;
-    font-weight: var(--font-weight-strong);
-    box-shadow: #fff200 0px 0px 4px 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    height: var(--space-xl);
-    font-size: var(--font-m);
-  }
   h1 {
     font-size: var(--font-xxxl);
     color: var(--yellow);
@@ -81,19 +68,6 @@
     align-self: center;
     display: none;
   }
-  nav button a {
-    display: inline;
-  }
-  @media (hover: hover) {
-    :global(button:hover) {
-      background-color: var(--yellow);
-      box-shadow: none;
-      color: black;
-    }
-    :global(button:hover a) {
-      color: black;
-    }
-  }
   @media (min-width: 600px) {
     nav a:nth-of-type(2n) {
       display: inline;
@@ -114,10 +88,6 @@
     }
     h1 {
       font-size: var(--font-xxxxl);
-    }
-    :global(button) {
-      height: var(--space-xl);
-      padding: 0 var(--space-m);
     }
   }
 </style>

@@ -1,5 +1,6 @@
 <script lang="ts">
   import jiminez from '/src/assets/Jiminez.png?format=webp';
+  import Button from '/src/components/button.svelte';
 </script>
 
 <h2>The Dyson Dilemma</h2>
@@ -29,20 +30,23 @@
 </section>
 <h2>Get your copy</h2>
 <section>
-  <a
-    href="https://www.drivethrurpg.com/product/445843/The-Dyson-Dilemma-A-WARP21-Adventure?affiliate_id=3996177"
-  >
-    Download it on Drivethrurpg
-  </a>
-  <a href="/dyson_dilemma.pdf" target="_blank">Download a pdf</a>
+  <div class="btn">
+    <Button
+      target="_blank"
+      href="https://www.drivethrurpg.com/product/445843/The-Dyson-Dilemma-A-WARP21-Adventure?affiliate_id=3996177"
+    >
+      Download it on Drivethrurpg
+    </Button>
+  </div>
+  <div class="btn">
+    <Button href="/dyson_dilemma.pdf" target="_blank">Download a pdf</Button>
+  </div>
 </section>
 
 <style>
-  a {
+  .btn {
     display: block;
-    font-size: var(--font-l);
-    margin: var(--space-xs);
-    color: var(--white);
+    margin: var(--space-m);
   }
   h2 {
     font-size: var(--font-xxl);

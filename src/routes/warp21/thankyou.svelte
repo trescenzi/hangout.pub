@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Button from '/src/components/button.svelte';
   import { onMount } from 'svelte';
   let dialog: HTMLDialogElement;
   onMount(() => {
@@ -17,7 +18,7 @@
     If you provided an email we'll try our best to get back to you. If not check back later and your
     question might make it into the FAQ.
   </p>
-  <button on:click={close}>Awesome</button>
+  <Button onclick={close}>Awesome</Button>
 </dialog>
 
 <style>
@@ -48,9 +49,5 @@
     font-family: var(--slab);
     color: var(--yellow);
     font-weight: var(--font-weight-bold);
-  }
-  button {
-    width: 50%;
-    align-self: end;
   }
 </style>

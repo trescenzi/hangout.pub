@@ -1,5 +1,6 @@
 <script lang="ts">
   import ThankYou from './thankyou.svelte';
+  import Button from '/src/components/button.svelte';
   import nexusStation from '/src/assets/nexus_station2.png?format=webp';
   import collision from '/src/assets/collision.png?format=webp';
   import playing from '/src/assets/playing.png?format=webp';
@@ -127,7 +128,9 @@
     <input id="email" name="email" type="email" />
     <label for="question">Your Question</label>
     <textarea id="question" name="question" />
-    <button>Submit</button>
+    <div class="btn">
+      <Button>Submit</Button>
+    </div>
   </form>
 </section>
 {#if form?.showThankYou}
@@ -184,9 +187,6 @@
     font-size: var(--font-l);
     margin-right: var(--space-l);
   }
-  button {
-    width: 100%;
-  }
   h2 {
     font-size: var(--font-xxl);
     font-family: var(--slab);
@@ -233,7 +233,7 @@
     form {
       grid-template-columns: 175px 1fr;
     }
-    button {
+    .btn {
       grid-column: 2;
     }
     .col1 {
