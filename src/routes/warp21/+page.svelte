@@ -1,10 +1,11 @@
 <script lang="ts">
-  import Footer from './footer.svelte';
   import ThankYou from './thankyou.svelte';
+  import Button from '/src/components/button.svelte';
   import nexusStation from '/src/assets/nexus_station2.png?format=webp';
   import collision from '/src/assets/collision.png?format=webp';
   import playing from '/src/assets/playing.png?format=webp';
   import maverick from '/src/assets/maverick.png?format=webp';
+  import dyson from '/src/assets/dyson_dilemma_banner.jpg?format=webp&width=1028';
   import type { ActionData } from './$types';
 
   export let form: ActionData;
@@ -127,13 +128,24 @@
     <input id="email" name="email" type="email" />
     <label for="question">Your Question</label>
     <textarea id="question" name="question" />
-    <button>Submit</button>
+    <div class="btn">
+      <Button>Submit</Button>
+    </div>
   </form>
 </section>
 {#if form?.showThankYou}
   <ThankYou />
 {/if}
-<Footer />
+<section class="span flex_section" id="dyson-dilemma">
+  <h2>Check out our free adventure:</h2>
+  <a href="/warp21/dyson_dilemma">
+    <img
+      src={dyson}
+      class="no_height"
+      alt="banner ad for The Dyaon Dilemma a free adventure for the WARP21 system showcasing characters from the adventure."
+    />
+  </a>
+</section>
 
 <style>
   form {
@@ -150,6 +162,11 @@
     padding: 4px;
     background-color: black;
     color: white;
+  }
+  .flex_section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
   }
   textarea {
     height: 4em;
@@ -169,9 +186,6 @@
     font-weight: var(--font-weight-medium);
     font-size: var(--font-l);
     margin-right: var(--space-l);
-  }
-  button {
-    width: 100%;
   }
   h2 {
     font-size: var(--font-xxl);
@@ -210,11 +224,16 @@
     object-fit: contain;
     margin-left: auto;
   }
+
+  img.no_height {
+    min-height: initial;
+    height: initial;
+  }
   @media (min-width: 810px) {
     form {
       grid-template-columns: 175px 1fr;
     }
-    button {
+    .btn {
       grid-column: 2;
     }
     .col1 {
