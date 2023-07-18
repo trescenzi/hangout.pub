@@ -32,9 +32,9 @@
   <a
     href="https://www.drivethrurpg.com/product/445843/The-Dyson-Dilemma-A-WARP21-Adventure?affiliate_id=3996177"
   >
-    Pay what you want on Drivethrurpg
+    Download it on Drivethrurpg
   </a>
-  <a href="/dyson_dilemma.pdf" target="_blank"> Download it now </a>
+  <a href="/dyson_dilemma.pdf" target="_blank">Download a pdf</a>
 </section>
 
 <style>
