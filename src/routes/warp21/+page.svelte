@@ -4,6 +4,7 @@
   import collision from '/src/assets/collision.png?format=webp';
   import playing from '/src/assets/playing.png?format=webp';
   import maverick from '/src/assets/maverick.png?format=webp';
+  import dyson from '/src/assets/dyson_dilemma_banner.jpg?format=webp&width=1028';
   import type { ActionData } from './$types';
 
   export let form: ActionData;
@@ -132,6 +133,16 @@
 {#if form?.showThankYou}
   <ThankYou />
 {/if}
+<section class="span flex_section" id="dyson-dilemma">
+  <h2>Check out our free adventure:</h2>
+  <a href="/warp21/dyson_dilemma">
+    <img
+      src={dyson}
+      class="no_height"
+      alt="banner ad for The Dyaon Dilemma a free adventure for the WARP21 system showcasing characters from the adventure."
+    />
+  </a>
+</section>
 
 <style>
   form {
@@ -148,6 +159,11 @@
     padding: 4px;
     background-color: black;
     color: white;
+  }
+  .flex_section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
   }
   textarea {
     height: 4em;
@@ -207,6 +223,11 @@
   .collision {
     object-fit: contain;
     margin-left: auto;
+  }
+
+  img.no_height {
+    min-height: initial;
+    height: initial;
   }
   @media (min-width: 810px) {
     form {
