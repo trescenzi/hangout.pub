@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Footer from './footer.svelte';
   import ThankYou from './thankyou.svelte';
   import nexusStation from '/src/assets/nexus_station2.png?format=webp';
   import collision from '/src/assets/collision.png?format=webp';
@@ -133,7 +132,6 @@
 {#if form?.showThankYou}
   <ThankYou />
 {/if}
-<Footer />
 
 <style>
   form {

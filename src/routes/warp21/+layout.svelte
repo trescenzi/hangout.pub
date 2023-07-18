@@ -1,5 +1,9 @@
+<script>
+  import Footer from './footer.svelte';
+</script>
+
 <header>
-  <h1>WARP 21</h1>
+  <a href="/warp21"><h1>WARP 21</h1></a>
   <nav>
     <a href="#setting">Setting</a>
     <a href="#rules">How to Play</a>
@@ -18,6 +22,7 @@
 <main>
   <slot />
 </main>
+<Footer />
 
 <style>
   :global(button) {
@@ -53,7 +58,8 @@
     grid-auto-flow: dense;
     column-gap: var(--space-m);
     row-gap: 7.5vh;
-    height: 100vh;
+    min-height: 100vh;
+    margin-bottom: 50px;
   }
   header {
     display: flex;
@@ -66,10 +72,12 @@
     display: flex;
     gap: var(--space-m);
   }
+  a {
+    text-decoration: none;
+  }
   nav a {
     color: var(--white);
     font-weight: var(--font-weight-medium);
-    text-decoration: none;
     align-self: center;
     display: none;
   }
