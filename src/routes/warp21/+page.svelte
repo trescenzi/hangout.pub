@@ -34,7 +34,7 @@
     explosion.
   </p>
   <p>
-    The experiment however was more successful than could have dreamed of; the colonists found
+    The experiment however was more successful than could have been dreamed of; the colonists found
     themselves in an enormous, abandoned space station orbiting a remote star, full of alien
     technology. For 15 years they have adapted this alien technology for their own needs to allow
     them to continue with their experiments, traveling to countless galaxies and dimensions in their
@@ -47,7 +47,7 @@
   <p>
     These past 15 years the lost colony has called Nexus Station their home and their base of
     operations for their continued experiments. The station itself is a marvel of technology.
-    Dizzyingly large and complex such a construct couldn't even have been imagined by the scientists
+    Dizzyingly large and complex, such a construct couldn't even have been imagined by the scientists
     as humans had yet to even put a satellite in space at the time of The Collision.
   </p>
   <p>
